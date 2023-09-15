@@ -1,6 +1,7 @@
 import React from "react";
 const SideBar = () =>{
     return(
+        <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
@@ -70,6 +71,9 @@ const SideBar = () =>{
             </div>
         </nav>
     </div>
+    </div>
+  
+      
     );
 };
 
